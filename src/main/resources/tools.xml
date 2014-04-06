@@ -1,0 +1,14 @@
+<tools>
+    <tool id="db-script-user" title="Database::Script user" projectTypes="inventory">
+        <description>Generates script to create users</description>
+
+        <parameters>
+            <parameter name="p_server"   title="Server"     type="string" required="true"
+                       suggestion="project_connections" width="300" />
+            <parameter name="p_login"    title="Login Name" type="string" required="false" />
+        </parameters>
+
+        <output  script="script_user.groovy" type="html" />
+    </tool>
+
+</tools>
