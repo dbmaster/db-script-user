@@ -1,5 +1,5 @@
 <tools>
-    <tool id="db-script-user" title="Database::Script user" projectTypes="inventory">
+    <tool id="db-script-user" title="Script user" projectTypes="inventory">
         <description>Generates script to create users</description>
 
         <parameters>
